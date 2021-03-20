@@ -3,6 +3,7 @@ import './database';
 import routes from './routes';
 import helmet from 'helmet';
 import cors from 'cors';
+import dotenv from 'dotenv/config';
 
 class App {
   constructor() {

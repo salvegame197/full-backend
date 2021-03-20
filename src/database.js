@@ -7,7 +7,7 @@ class Database {
 
   init() {
     mongoose.connect(
-      'mongodb://localhost:27017/userdb',
+      `${process.env.MONGODB_CONNECT}`,
       {
         useNewUrlParser: true,
         useUnifiedTopology: true,
