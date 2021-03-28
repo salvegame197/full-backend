@@ -63,3 +63,8 @@
 2021-03-28T13:44:51.732Z [FULL-BACKEND] info: MongoDB Connected
 2021-03-28T13:44:56.174Z [FULL-BACKEND] info: Server.js API Started
 2021-03-28T13:44:56.192Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:46:13.687Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:46:13.706Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:50:56.635Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:50:56.654Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:50:58.387Z [FULL-BACKEND] warn: IP:::1 Error TokenExpiredError: jwt expired Invalid JWT Token

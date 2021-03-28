@@ -23,7 +23,7 @@ export default async function (req, res, next) {
     req.user = id;
     return next();
   } catch (error) {
-    logger.warn(`IP:${req.ip} | User: ${id} Invalid JWT Token`);
+    logger.warn(`IP:${req.ip} Error ${error}`);
     return res.status(401).json({ error: "Invalid JWT Token" });
   }
 }
