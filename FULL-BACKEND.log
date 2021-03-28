@@ -492,3 +492,18 @@
 2021-03-28T14:55:31.018Z [FULL-BACKEND] info: MongoDB Connected
 2021-03-28T14:55:39.435Z [FULL-BACKEND] info: Server.js API Started
 2021-03-28T14:55:39.449Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:56:42.441Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:56:42.459Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:57:04.265Z [FULL-BACKEND] info: IP:::1 PUT/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$V9xBQOtINX/ljoF5vX0loOoIupYg6UQl6AtDS50BCF/8jyEd5P7Ne',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:57:04.227Z,
+  __v: 0,
+  expiration: null,
+  token: null
+}
+2021-03-28T14:57:23.650Z [FULL-BACKEND] error: IP:::1 POST/recovery : TypeError: Cannot read property 'expiration' of null

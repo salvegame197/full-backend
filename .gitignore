@@ -5,4 +5,4 @@ node_modules
 github.txt
 .env
 **.log
-FULL-BACKEND.log
+*.log
