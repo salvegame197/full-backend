@@ -147,3 +147,37 @@
   updatedAt: 2021-03-28T14:10:16.052Z,
   __v: 0
 }
+2021-03-28T14:14:53.012Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:14:53.029Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:16:37.250Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:16:37.268Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:16:48.271Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:16:48.285Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:17:30.954Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:17:30.974Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:18:24.069Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:18:24.087Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:18:27.141Z [FULL-BACKEND] warn: IP:::1 POST/users Trying duplicate a user : {"name":"Gabriel","email":"teste1111@gmail.com","password":"123"}
+2021-03-28T14:19:05.553Z [FULL-BACKEND] info: IP:::1  GET/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$mu8ctSqWRUHV1o7abi88yeUtFjQCaz4RDOXmWRapgaDMSnQ80AEGK',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:10:16.052Z,
+  __v: 0
+}
+2021-03-28T14:19:26.651Z [FULL-BACKEND] warn: IP:::1 Error JsonWebTokenError: invalid signature
+2021-03-28T14:19:34.958Z [FULL-BACKEND] warn: IP:::1 Error JsonWebTokenError: invalid signature
+2021-03-28T14:19:40.099Z [FULL-BACKEND] warn: IP:::1 Error JsonWebTokenError: invalid signature
+2021-03-28T14:19:50.623Z [FULL-BACKEND] info: IP:::1  GET/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$mu8ctSqWRUHV1o7abi88yeUtFjQCaz4RDOXmWRapgaDMSnQ80AEGK',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:10:16.052Z,
+  __v: 0
+}

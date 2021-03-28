@@ -5,15 +5,11 @@ class UserController {
   async show(req, res) {
     const user = await User.findById(req.user);
     if (!user) {
+      logger.warn(`IP:${req.ip} GET/users Error on get user : ${user}`);
       res.status(401).json({ error: "Failed on Authenticate" });
     }
-
+    logger.info(`IP:${req.ip}  GET/users : ${user}`);
     return res.json({ user: user.show() });
-  }
-  async index(req, res) {
-    const users = await User.find();
-
-    return res.json(users);
   }
   async store(req, res) {
     try {
@@ -21,7 +17,9 @@ class UserController {
       const userExist = await User.findOne({ email });
       if (userExist) {
         logger.warn(
-          `IP:${req.ip} Trying duplicate a user : ${JSON.stringify(req.body)}`
+          `IP:${req.ip} POST/users Trying duplicate a user : ${JSON.stringify(
+            req.body
+          )}`
         );
         return res.status(400).json({ error: "Duplicate User" });
       }
@@ -30,12 +28,12 @@ class UserController {
         email,
         password,
       });
-      logger.info(`IP:${req.ip} User created : ${user}`);
+      logger.info(`IP:${req.ip} POST/users : ${user}`);
       return res.json({
         user: user.show(),
       });
     } catch (error) {
-      logger.info(`IP:${req.ip} ${error}`);
+      logger.info(`IP:${req.ip} POST/users ${error}`);
       res.status(400).json({ error: "Failed on create user" });
     }
   }
