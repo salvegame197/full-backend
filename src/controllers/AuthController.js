@@ -10,7 +10,7 @@ class AuthController {
 
     const user = await User.findOne({ email });
     if (!user) {
-      logger.error(`IP:${req.ip} Failed to find email`);
+      logger.warn(`IP:${req.ip} Failed to find email`);
       return res.status(400).json({ error: "Credentials do not match" });
     }
 
@@ -22,7 +22,7 @@ class AuthController {
     const checkPassword = await bcryptjs.compare(password, user.password);
 
     if (!checkPassword) {
-      logger.error(`IP:${req.ip} Password do not match`);
+      logger.warn(`IP:${req.ip} Password do not match`);
       return res.status(400).json({ error: "Credentials do not match" });
     }
 

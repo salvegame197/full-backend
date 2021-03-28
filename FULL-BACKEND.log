@@ -68,3 +68,70 @@
 2021-03-28T13:50:56.635Z [FULL-BACKEND] info: Server.js API Started
 2021-03-28T13:50:56.654Z [FULL-BACKEND] info: MongoDB Connected
 2021-03-28T13:50:58.387Z [FULL-BACKEND] warn: IP:::1 Error TokenExpiredError: jwt expired Invalid JWT Token
+2021-03-28T13:51:16.431Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:51:16.446Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:54:52.748Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:54:52.766Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:56:35.387Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:56:35.401Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:56:46.906Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:56:46.925Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:57:22.850Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:57:22.869Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:58:35.167Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:58:35.194Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:59:26.118Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:59:26.132Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:00:16.528Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:00:16.554Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:00:51.155Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:00:51.174Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:00:53.161Z [FULL-BACKEND] info: IP:::1 MongoError: insertDocument :: caused by :: 11000 E11000 duplicate key error index: userdb}.users.$email_1  dup key: { : "teste111@gmail.com" }
+2021-03-28T14:02:32.129Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:02:32.143Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:02:45.639Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:02:45.660Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:02:48.689Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:02:49.560Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:02:50.260Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:02:51.388Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:02:56.137Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:02:56.156Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:02:57.747Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:03:45.358Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:03:45.381Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:04:16.448Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:04:16.468Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:04:19.173Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:04:20.013Z [FULL-BACKEND] info: IP:::1 ObjectParameterError: Parameter "filter" to findOne() must be an object, got teste111@gmail.com
+2021-03-28T14:04:39.431Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:04:39.451Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:04:41.329Z [FULL-BACKEND] info: IP:::1 MongoError: insertDocument :: caused by :: 11000 E11000 duplicate key error index: userdb}.users.$email_1  dup key: { : "teste111@gmail.com" }
+2021-03-28T14:06:07.539Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:06:07.557Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:06:09.276Z [FULL-BACKEND] info: IP:::1 MongoError: insertDocument :: caused by :: 11000 E11000 duplicate key error index: userdb}.users.$email_1  dup key: { : "teste111@gmail.com" }
+2021-03-28T14:07:19.550Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:07:19.570Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:07:21.977Z [FULL-BACKEND] info: IP:::1 MongoError: insertDocument :: caused by :: 11000 E11000 duplicate key error index: userdb}.users.$email_1  dup key: { : "teste111@gmail.com" }
+2021-03-28T14:08:41.651Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:08:41.671Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:09:22.483Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:09:22.502Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:09:23.991Z [FULL-BACKEND] info: IP:::1 ReferenceError: Cannot access 'user' before initialization
+2021-03-28T14:09:33.848Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:09:33.868Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:09:35.675Z [FULL-BACKEND] warn: IP:::1 Trying duplicate a user : [object Object]
+2021-03-28T14:09:51.436Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:09:51.455Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:09:52.496Z [FULL-BACKEND] warn: IP:::1 Trying duplicate a user : {"name":"Gabriel","email":"teste111@gmail.com","password":"123"}
+2021-03-28T14:10:16.089Z [FULL-BACKEND] info: IP:::1 User created : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$mu8ctSqWRUHV1o7abi88yeUtFjQCaz4RDOXmWRapgaDMSnQ80AEGK',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:10:16.052Z,
+  __v: 0
+}
+2021-03-28T14:10:42.687Z [FULL-BACKEND] error: IP:::1 Password do not match
