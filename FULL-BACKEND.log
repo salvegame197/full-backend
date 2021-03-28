@@ -181,3 +181,7 @@
   updatedAt: 2021-03-28T14:10:16.052Z,
   __v: 0
 }
+2021-03-28T14:20:48.678Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:20:48.696Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:22:58.673Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:22:58.695Z [FULL-BACKEND] info: MongoDB Connected

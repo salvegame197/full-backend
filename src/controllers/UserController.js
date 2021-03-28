@@ -38,27 +38,32 @@ class UserController {
     }
   }
   async update(req, res) {
-    const user = await User.findById(req.user);
-    const { name, email, password } = req.body;
-    if (!user) {
-      res.status(401).json({ error: "Failed on Authenticate" });
-    }
+    try {
+      const user = await User.findById(req.user);
+      const { name, email, password } = req.body;
+      if (!user) {
+        logger.warn(
+          `IP:${req.ip} PUT/users Failed on Authenticate : ${req.user}`
+        );
+        return res.status(401).json({ error: "Failed on Authenticate" });
+      }
 
-    if (name) {
-      user.name = name;
-    }
-    if (email) {
-      user.email = email;
-    }
-    if (password) {
-      user.password = password;
-    }
+      if (name) {
+        user.name = name;
+      }
+      if (email) {
+        user.email = email;
+      }
+      if (password) {
+        user.password = password;
+      }
 
-    await user.save();
-
-    return res.json({
-      user: user.show(),
-    });
+      await user.save();
+      logger.info(`IP:${req.ip} PUT/users : ${user}`);
+      return res.json({
+        user: user.show(),
+      });
+    } catch (error) {}
   }
 
   async deleted(req, res) {
