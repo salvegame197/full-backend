@@ -1,4 +1,5 @@
 "use strict";Object.defineProperty(exports, "__esModule", {value: true}); function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }var _mongoose = require('mongoose'); var _mongoose2 = _interopRequireDefault(_mongoose);
+var _winston = require('./config/winston'); var _winston2 = _interopRequireDefault(_winston);
 
 class Database {
   constructor() {
@@ -13,8 +14,12 @@ class Database {
         useUnifiedTopology: true,
         useCreateIndex: true,
       },
-      () => {
-        console.log('MongoDB Connected');
+      (err) => {
+        if (err) {
+          _winston2.default.error(`MongoDB not Connected: ${err}`);
+        } else {
+          _winston2.default.info(`MongoDB Connected`);
+        }
       }
     );
   }

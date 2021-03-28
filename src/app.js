@@ -4,6 +4,18 @@ import routes from "./routes";
 import helmet from "helmet";
 import cors from "cors";
 
+const whiteList = ["http://localhost:3000"];
+
+const corsOptions = {
+  origin: function (origin, callback) {
+    if (whiteList.indexOf(origin) !== -1 || !origin) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not alloewd by CORS"));
+    }
+  },
+};
+
 class App {
   constructor() {
     this.server = express();
@@ -17,7 +29,7 @@ class App {
     //security
     this.server.use(helmet());
     //domains to frontend
-    this.server.use(cors());
+    this.server.use(cors(corsOptions));
   }
 
   routes() {
