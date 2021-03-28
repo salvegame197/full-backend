@@ -34,7 +34,7 @@ class RecoveryController {
       });
 
       await user.save();
-      logger.info(`IP:${req.ip} POST/recovery : ${user}`);
+      logger.info(`IP:${req.ip} POST/recovery send mail to  : ${user.email}`);
       return res.status(200).send();
     } catch (error) {
       logger.error(`IP:${req.ip} POST/recovery : ${error}`);
