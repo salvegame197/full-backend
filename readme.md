@@ -19,12 +19,7 @@ install Mongo DB or use in web, need configure on .env and src/database.JS
 
 ## TODO
 
-- Better README.mb
-- Refactoring
-- Logger using Winston
-- Swagger to documentation API
-- Better Error Tratment
-- Adding React to do Front End
+- Logger using Winston Done
 
 ## Meta
 
