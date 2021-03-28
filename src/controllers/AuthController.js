@@ -32,7 +32,7 @@ class AuthController {
       subject: String(user._id),
       expiresIn,
     });
-    logger.error(`IP:${req.ip} Login Success User:${user}`);
+    logger.info(`IP:${req.ip} Login Success User:${user}`);
     return res.json({ user: user.show(), token });
   }
 }

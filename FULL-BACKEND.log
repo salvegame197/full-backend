@@ -135,3 +135,15 @@
   __v: 0
 }
 2021-03-28T14:10:42.687Z [FULL-BACKEND] error: IP:::1 Password do not match
+2021-03-28T14:12:02.858Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:12:02.876Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:14:38.553Z [FULL-BACKEND] error: IP:::1 Login Success User:{
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$mu8ctSqWRUHV1o7abi88yeUtFjQCaz4RDOXmWRapgaDMSnQ80AEGK',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:10:16.052Z,
+  __v: 0
+}
