@@ -69,13 +69,16 @@ class UserController {
   async deleted(req, res) {
     const user = await User.findById(req.user);
     if (!user) {
+      logger.warn(
+        `IP:${req.ip} DELETE/users Failed on Authenticate : ${req.user}`
+      );
       res.status(401).json({ error: "Failed on Authenticate" });
     }
 
     user.deleted = true;
 
     await user.save();
-
+    logger.info(`IP:${req.ip} DELETE/users : ${user}`);
     return res.status(204).send();
   }
 }

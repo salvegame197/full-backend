@@ -185,3 +185,302 @@
 2021-03-28T14:20:48.696Z [FULL-BACKEND] info: MongoDB Connected
 2021-03-28T14:22:58.673Z [FULL-BACKEND] info: Server.js API Started
 2021-03-28T14:22:58.695Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:28:26.898Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:28:26.913Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:28:35.954Z [FULL-BACKEND] warn: IP:::1 Error JsonWebTokenError: invalid signature
+2021-03-28T14:28:41.399Z [FULL-BACKEND] info: IP:::1 PUT/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$S.IsIJx5RaLm46KqmXuFjOO4/2V.8ECdhmxNUxMdjFbkblLt/Zy5C',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:28:41.361Z,
+  __v: 0
+}
+2021-03-28T14:30:14.033Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:30:14.052Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:35:56.323Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:35:56.339Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:36:30.222Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:36:30.236Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:36:49.145Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:36:49.162Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:37:04.577Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:37:04.597Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:37:09.474Z [FULL-BACKEND] info: IP:::1 DELETE/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$S.IsIJx5RaLm46KqmXuFjOO4/2V.8ECdhmxNUxMdjFbkblLt/Zy5C',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:28:41.361Z,
+  __v: 0,
+  token: '4c465a477a614768',
+  expiration: 'Sun Mar 28 2021 11:42:09 GMT-0300 (Horário Padrão de Brasília)'
+}
+2021-03-28T14:38:26.885Z [FULL-BACKEND] info: IP:::1 DELETE/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$UlyBC2Tr8Rv2ZZXrhmq37uZ2zAxRB9PJ2NW.hs4npM.vU3MFCQE2K',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:37:09.477Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:43:26 GMT-0300 (Horário Padrão de Brasília)',
+  token: 'f00411f48fe5964d'
+}
+2021-03-28T14:41:53.009Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:41:53.027Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:41:55.442Z [FULL-BACKEND] info: IP:::1 DELETE/users : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$XImuv7dSh9Hh6fLGlkSTiOlzARheN8ybpusjdKvF6sqobFLacNc/e',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:38:26.887Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:46:55 GMT-0300 (Horário Padrão de Brasília)',
+  token: '7f45694beaf0fca9'
+}
+2021-03-28T14:42:59.402Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:42:59.420Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:43:35.458Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:43:35.476Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:43:43.792Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:43:43.812Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:43:54.377Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:43:54.395Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:43:56.319Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$SRlb9frwrlLSje/O7502FOJtk17cUCTKXhodSkWwNl6fcfvYLLKNK',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:41:55.445Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:48:56 GMT-0300 (Horário Padrão de Brasília)',
+  token: '992fda685bbb62f9'
+}
+2021-03-28T14:44:40.228Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:44:40.241Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:44:43.456Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$I2ej.osDLhkDO.p/Q847tu5Jok.MU5Tv3fMxGUFpEq8UIa88JrCSm',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:43:56.322Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:49:43 GMT-0300 (Horário Padrão de Brasília)',
+  token: '7be3bd0731ce8569'
+}
+2021-03-28T14:45:01.915Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:45:01.928Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:45:20.828Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:45:20.841Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:45:22.584Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$XXhSFg4pIamubJGiJCT9v.ZSlS/YQcDNVU.v2AZWanToWO7bkJVte',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:44:43.460Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:50:22 GMT-0300 (Horário Padrão de Brasília)',
+  token: '52696933046de367'
+}
+2021-03-28T14:45:31.439Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$kZlJBGG7C2y1vMImdhYQo.aH/oRRbgwK4aWAfhkGNGIXhT643/RNC',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:45:22.587Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:50:31 GMT-0300 (Horário Padrão de Brasília)',
+  token: 'd7c87e5308ed6cd5'
+}
+2021-03-28T14:45:32.223Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:45:32.242Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:45:37.990Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$kZlJBGG7C2y1vMImdhYQo.aH/oRRbgwK4aWAfhkGNGIXhT643/RNC',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:45:22.587Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:50:37 GMT-0300 (Horário Padrão de Brasília)',
+  token: '1d28e59055bdc0a9'
+}
+2021-03-28T14:45:41.735Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$eLDeRJ65xc6NfKFump8r9e2GP1ngYUU5x1I0bEGl5TPkuZ4Tgftwe',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:45:37.994Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:50:41 GMT-0300 (Horário Padrão de Brasília)',
+  token: '53916f138c6549d1'
+}
+2021-03-28T14:45:42.938Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$GUzT4qvROJSh410PvY/7o.obbtMBuzHcbnL6rHJRO3.LQ0ku74wxS',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:45:41.737Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:50:42 GMT-0300 (Horário Padrão de Brasília)',
+  token: '17ccc0a6d3cf6ea3'
+}
+2021-03-28T14:46:22.413Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:46:22.433Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:46:24.695Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$Pure7HqFk2hKcaYJxMxQ7.H1D7CCftCId5CvPiivq1QKF7zOaTSim',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:45:42.940Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:51:24 GMT-0300 (Horário Padrão de Brasília)',
+  token: '780b21f876f7e682'
+}
+2021-03-28T14:47:10.869Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$uLUgGhfjdVgV0H2psoVhbe85OIPnh1lQVzRzQe91D9pVZwcqMY6jC',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:46:24.698Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:52:10 GMT-0300 (Horário Padrão de Brasília)',
+  token: '40235004d13e9709'
+}
+2021-03-28T14:47:52.636Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:47:52.654Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:47:55.801Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$NzVx0kuozH6uOoV41hEfcuRUm4/GQ9X44AO6Fm8eYlBz3vqbQpqaW',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:47:10.870Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:52:55 GMT-0300 (Horário Padrão de Brasília)',
+  token: 'b8498d7cee2294e8'
+}
+2021-03-28T14:48:15.224Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:48:15.242Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:48:27.246Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:48:27.260Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:49:15.105Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:49:15.125Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:49:16.817Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$nfDxsbQaCmOZPyexT2n3OOKK94DQpJBH1EazlHTocUk42/XyUyOni',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:49:16.780Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:54:16 GMT-0300 (Horário Padrão de Brasília)',
+  token: '268dcffe706b8934'
+}
+2021-03-28T14:49:43.070Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:49:43.088Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:49:45.518Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:49:45.537Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:49:47.268Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$czqDYhEHITLzNG1xy8TgoehqKdZeUIdksFFvij0wVR7gcgkndqwPm',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:49:47.231Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:54:47 GMT-0300 (Horário Padrão de Brasília)',
+  token: 'd831209533e7cce2'
+}
+2021-03-28T14:50:16.328Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:16.346Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:17.912Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:17.926Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:20.441Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$18SPCFMb56Do//gncb/bpOS4KTLyMRgDiZY1IzkXYcWuFRu43dcVq',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:50:20.404Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:55:20 GMT-0300 (Horário Padrão de Brasília)',
+  token: '9ddd03741b9c0943'
+}
+2021-03-28T14:50:32.518Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:32.533Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:34.920Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:34.939Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:36.854Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$dvYN4s2S.d0a31buMPrpJOsU2k/Y/4yDK5lC2UcX/zq5ZVjUyQOIa',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:50:36.817Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:55:36 GMT-0300 (Horário Padrão de Brasília)',
+  token: '0f7445100cc1577f'
+}
+2021-03-28T14:50:50.172Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:50.191Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:52.213Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:50:52.232Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:50:55.168Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$MLAoQOCownirt8R0YQzKIOOi0u7ZoaubxiC6S9030FBvivaYEJd/u',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:50:55.130Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:55:55 GMT-0300 (Horário Padrão de Brasília)',
+  token: '884eae8bc631758f'
+}
+2021-03-28T14:51:01.705Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:51:01.724Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T14:52:04.694Z [FULL-BACKEND] info: IP:::1 POST/recovery : {
+  deleted: false,
+  _id: 60608e48fc960f65fc76c9d9,
+  name: 'Gabriel SILVAa',
+  email: 'teste1111@gmail.com',
+  password: '$2a$08$VLpfVCOsBX5JaKdIaOIoHe0K3g9Jv/xLWe5jZpZNGv/Yfnqz18mVa',
+  createdAt: 2021-03-28T14:10:16.052Z,
+  updatedAt: 2021-03-28T14:52:04.656Z,
+  __v: 0,
+  expiration: 'Sun Mar 28 2021 11:57:04 GMT-0300 (Horário Padrão de Brasília)',
+  token: 'd8fa68845eb21bb1'
+}
+2021-03-28T14:52:10.471Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T14:52:10.490Z [FULL-BACKEND] info: MongoDB Connected
