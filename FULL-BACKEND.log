@@ -1,0 +1,14 @@
+2021-03-28T19:22:13.714Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:22:43.463Z [FULL-BACKEND] error: MongoDB not Connected: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+2021-03-28T19:28:11.868Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:28:11.883Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T19:31:30.019Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:31:30.021Z [FULL-BACKEND] error: MongoDB not Connected: TypeError: Cannot read property 'split' of null
+2021-03-28T19:34:52.914Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:34:52.916Z [FULL-BACKEND] error: MongoDB not Connected: TypeError: Cannot read property 'split' of null
+2021-03-28T19:35:31.123Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:35:32.704Z [FULL-BACKEND] error: MongoDB not Connected: MongoError: bad auth : Authentication failed.
+2021-03-28T19:36:49.873Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:36:51.594Z [FULL-BACKEND] error: MongoDB not Connected: MongoError: bad auth : Authentication failed.
+2021-03-28T19:37:15.420Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T19:37:17.237Z [FULL-BACKEND] info: MongoDB Connected
