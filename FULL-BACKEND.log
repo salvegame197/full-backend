@@ -1,0 +1,54 @@
+2021-03-27T15:31:50.255Z [FULL-BACKEND] info: API Started
+2021-03-27T15:32:09.574Z [FULL-BACKEND] info: API Started undefined
+2021-03-27T15:32:17.475Z [FULL-BACKEND] info: API Started
+2021-03-27T15:34:08.700Z [FULL-BACKEND] info: API Started
+2021-03-27T15:35:43.916Z [FULL-BACKEND] info: API Started
+2021-03-27T15:36:29.945Z [FULL-BACKEND] info: API Started
+2021-03-27T15:36:50.369Z [FULL-BACKEND] info: API Started
+2021-03-27T15:36:57.547Z [FULL-BACKEND] info: API Started
+2021-03-27T15:39:35.551Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T15:52:08.395Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T15:52:08.410Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T15:52:47.167Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T15:52:47.187Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T15:53:16.891Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T15:53:16.911Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T15:53:24.350Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:09:47.488Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:09:47.509Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T16:10:12.845Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:10:12.865Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T16:10:23.963Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:10:23.965Z [FULL-BACKEND] error: MongoDB not Connected: MongoParseError: Invalid port (larger than 65535) with hostname
+2021-03-27T16:10:35.727Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:11:05.421Z [FULL-BACKEND] error: MongoDB not Connected: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27015
+2021-03-27T16:11:23.989Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:11:24.009Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T16:13:12.665Z [FULL-BACKEND] info: C:\UDEMY\full-backend\src\server.js API Started
+2021-03-27T16:13:12.686Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-27T16:13:54.090Z [FULL-BACKEND] info: Server.js API Started
+2021-03-27T16:13:54.110Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:32:32.136Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:33:01.738Z [FULL-BACKEND] error: MongoDB not Connected: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+2021-03-28T13:33:59.688Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:34:29.451Z [FULL-BACKEND] error: MongoDB not Connected: MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017
+2021-03-28T13:34:56.585Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:34:56.604Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:35:05.567Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:35:50.349Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:35:50.363Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:35:55.048Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:35:56.900Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:36:01.308Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:36:01.327Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:36:04.122Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:36:22.076Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:36:22.095Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:36:24.998Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:36:48.913Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:36:48.932Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:36:50.749Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:36:51.878Z [FULL-BACKEND] error: IP:::1 Failed to find email
+2021-03-28T13:37:03.355Z [FULL-BACKEND] info: Server.js API Started
+2021-03-28T13:37:03.376Z [FULL-BACKEND] info: MongoDB Connected
+2021-03-28T13:37:04.590Z [FULL-BACKEND] error: IP:::1 Failed to find email

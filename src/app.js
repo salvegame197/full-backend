@@ -1,9 +1,8 @@
-import _ from './config/env';
-import express from 'express';
-import './database';
-import routes from './routes';
-import helmet from 'helmet';
-import cors from 'cors';
+import express from "express";
+import "./database";
+import routes from "./routes";
+import helmet from "helmet";
+import cors from "cors";
 
 class App {
   constructor() {

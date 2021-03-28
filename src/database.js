@@ -1,4 +1,5 @@
-import mongoose from 'mongoose';
+import mongoose from "mongoose";
+import logger from "./config/winston";
 
 class Database {
   constructor() {
@@ -13,8 +14,12 @@ class Database {
         useUnifiedTopology: true,
         useCreateIndex: true,
       },
-      () => {
-        console.log('MongoDB Connected');
+      (err) => {
+        if (err) {
+          logger.error(`MongoDB not Connected: ${err}`);
+        } else {
+          logger.info(`MongoDB Connected`);
+        }
       }
     );
   }
