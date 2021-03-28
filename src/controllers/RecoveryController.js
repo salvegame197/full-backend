@@ -37,25 +37,32 @@ class RecoveryController {
       logger.info(`IP:${req.ip} POST/recovery : ${user}`);
       return res.status(200).send();
     } catch (error) {
-      logger.info(`IP:${req.ip} POST/recovery : ${error}`);
+      logger.error(`IP:${req.ip} POST/recovery : ${error}`);
       return res.status(400).json({ error: "Error to send email" });
     }
   }
 
   async update(req, res) {
-    const { token, password } = req.body;
+    try {
+      const { token, password } = req.body;
 
-    const user = await User.findOne({ token });
-    if (isAfter(new Date(), user.expiration)) {
-      return res.status(400).json({ error: "Token expired" });
+      const user = await User.findOne({ token });
+      if (isAfter(new Date(), user.expiration)) {
+        logger.error(`IP:${req.ip} PUT/recovery Token expired ${token}`);
+        return res.status(400).json({ error: "Token expired" });
+      }
+
+      user.password = password;
+      user.token = null;
+      user.expiration = null;
+      await user.save();
+
+      logger.info(`IP:${req.ip} PUT/recovery : ${user}`);
+      return res.status(200).send();
+    } catch (error) {
+      logger.error(`IP:${req.ip} POST/recovery : ${error}`);
+      return res.status(400).json({ error: "Error at update password" });
     }
-
-    user.password = password;
-    user.token = null;
-    user.expiration = null;
-    await user.save();
-
-    return res.status(200).send();
   }
 }
 
